@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ZOOMX - Digital Marketing Agency </title>
+    <link rel="icon" href="img/logo_png.png" type="image/png">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+  .bg-red {
+    background-color: #5a0012 !important;
+  }
+  </style>
+  <style>
+  .custom-red {
+    background-color: #5a0012;
+  }
+</style>
+<style>
+  /* Default at top */
+  .special-text {
+    color: white !important;
+    transition: color 0.3s ease;
+  }
+  .special-text2 {
+    color: rgb(147, 0, 0) !important;
+    transition: color 0.3s ease;
+  }
+
+  /* Change only when scrolling */
+  .scrolled .special-text {
+    color: rgb(0, 0, 0) !important;
+  }
+</style>
+<style>
+  .logo {
+    transition: opacity 0.3s ease;
+    position: absolute;
+  }
+
+  .logo-default {
+    opacity: 1;
+  }
+
+  .logo-scroll {
+    opacity: 0;
+  }
+
+  /* When scrolled: hide default logo, show scroll logo */
+  .scrolled .logo-default {
+    opacity: 0;
+  }
+
+  .scrolled .logo-scroll {
+    opacity: 1;
+  }
+</style>
+
+<style>
+/* === THEME COLORS === */
+:root {
+  --theme-main: #800000; /* meroon */
+  --theme-secondary: #B22222; /* red */
+  --theme-accent: #FFC0CB; /* pink */
+}
+
+/* Text colors */
+.text-primary {
+  color: var(--theme-main) !important;
+}
+
+/* Background colors */
+.bg-primary {
+  background-color: var(--theme-main) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--theme-main) !important;
+  border-color: var(--theme-main) !important;
+}
+
+.btn-outline-primary {
+  color: var(--theme-main) !important;
+  border-color: var(--theme-main) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--theme-main) !important;
+  color: white !important;
+}
+
+/* Newsletter paper plane icon */
+.text-primary.fs-4 {
+  color: var(--theme-secondary) !important;
+}
+
+/* Custom gradient class */
+.bg-red-pink {
+  background: linear-gradient(to right, #800000, #FF69B4);
+  color: white;
+}
+</style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+    <div class="container-fluid bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <section id="homeindex">
+        <div class="container-fluid position-relative p-0">
+            <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light custom-navbar px-4 px-lg-5 py-3 py-lg-0">
+                <div class="">
+                    <a href="" class="navbar-brand p-0"><img src="img/name_png.png" class="logo logo-default" alt="Logo"><img src="img/name_png_no white.png" class="logo logo-scroll" alt="Logo"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto py-0">
+                        <li><a href="#homeindex" class="nav-item nav-link active">Home</a></li>
+                        <li><a href="#indexabout" class="nav-item nav-link">About</a></li>
+                        <li><a href="#serviceindex" class="nav-item nav-link">Service</a></li>
+                        <li><a href="#portfolioindex" class="nav-item nav-link">Project</a></li>
+                        <li><a href="#testimonialindex" class="nav-item nav-link">Testimonial</a></li>
+                        <li><a href="#teamindex" class="nav-item nav-link">Our Team</a></li>
+                        <li><a href="#footerindex" class="nav-item nav-link">Contact</a></li>
+                    </ul>
+                    <butaton type="button" class="navbar-brand special-text" class="btn ms-3" data-bs-toggle="modal" data-bs-target="#searchModal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-search"></i></butaton>
+                    <!-- a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3">Pro Version</a-->
+                </div>
+            </nav>
+
+            <div class="container-fluid py-5 bg-red hero-header mb-5">
+                <div class="container my-5 py-5 px-lg-5">
+                    <div class="row g-5 py-5">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated zoomIn">Your Brand. Our Strategy. Limitless Growth.</h1>
+                            <p class="text-white pb-3 animated zoomIn">At ZoomX, we specialize in crafting powerful digital experiences that help your business stand out, engage audiences, and convert leads into loyal customers.</p>
+                            <a href="#newsletterindex" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Free Quote</a>
+                            <a href="#footerindex" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid" src="img/logo_png.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Full Screen Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content" style="background: rgba(29, 29, 39, 0.7);">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center justify-content-center">
+                        <div class="input-group" style="max-width: 600px;">
+                            <input type="text" class="form-control bg-transparent border-light p-3" placeholder="Type search keyword">
+                            <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Screen Search End -->
+
+
+        <!-- About Start -->
+         <section id="indexabout">
+            <div class="container-fluid py-5">
+            <div class="container px-lg-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="section-title position-relative mb-4 pb-2">
+                            <h6 class="position-relative special-text2 ps-4">About Us</h6>
+                            <h2 class="mt-2">ZoomX Digital Marketing Agency is a creative digital partner for modern businesses</h2>
+                        </div>
+                        <p class="mb-4">Our MissionTo deliver results-driven digital marketing solutions that connect brands with their ideal audience and drive measurable success.Our Vision To become a trusted leader in the digital marketing space, known for creativity, transparency, and growth-focused strategies.
+</p>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Certified Agency</h6>
+                                <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Professional Staff</h6>
+                            </div>
+                            <div class="col-sm-6">
+                                <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>24/7 Support</h6>
+                                <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Fair Prices</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mt-4">
+                            <a class="btn btn-primary rounded-pill px-4 me-3" href="#teamindex">Follow Us</a>
+                            <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/share/16Gp5a28Nh/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-square me-3" href="https://x.com/ZoomxAgency?t=yQHhVWPs5RCtk2iGBgcQBQ&s=08"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/zoomxdigitalmarketingagency?igsh=MXZ2am5oMG9zeHl1OQ=="><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/zoomx-digital-marketing-agency-381384343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- About End -->
+
+
+        <!-- Newsletter Start -->
+         <section id="newsletterindex">
+        <div class="container-fluid bg-primary newsletter my-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container px-lg-5">
+                <div class="row align-items-center" style="height: 250px;">
+                    <div class="col-12 col-md-6">
+                        <h3 class="text-white">Let’s Talk Growth!</h3>
+                        <small class="text-white">We’re here to help your brand reach new heights. Drop us a message or reach out directly!</small>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <div class="position-relative w-100 mt-3">
+                                <input type="hidden" name="access_key" value="6e320b38-e7a0-4953-b48b-86d5b4a46faf">
+                                <!-- Message textarea -->
+                                 <textarea id="message" name="message" placeholder="Message" class="form-control border-0 w-100 ps-4 pe-5 mb-3" style="border-radius: 20px;" required></textarea>
+                                <!-- Email with embedded button -->
+                                 <div class="position-relative w-100">
+                                    <input id="email" name="email" type="email" class="form-control border-0 w-100 ps-4 pe-5 mb-3" style="border-radius: 20px;height: 44px;" placeholder="Your Email" style="height: 48px;" required />
+                                    <button type="submit" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 text-center mb-n5 d-none d-md-block">
+                        <img class="img-fluid mt-5" style="height: 250px;" src="img/newsletter.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Newsletter End -->
+
+
+        <!-- Service Start -->
+        <section id="serviceindex">
+        <div class="container-fluid py-5">
+            <div class="container px-lg-5">
+                <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="position-relative d-inline text-primary ps-4">Our Services</h6>
+                    <h2 class="mt-2">What Solutions We Provide</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-search fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">SEO Optimization</h5>
+                            <p>Boost your online visibility and rank higher on Google with our white-hat SEO techniques.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="blog/index-seo.html">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-folder fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Web Design</h5>
+                            <p>Professional, fast-loading, SEO-optimized websites tailored for your brand and audience.
+</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="blog/index--web-design.html">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-bars fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Social Media Marketing</h5>
+                            <p>Engage your audience with impactful content, campaigns, and brand storytelling across all major platforms.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="blog/index-smm.html">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-envelope fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Email Marketing</h5>
+                            <p>Nurture leads and increase customer retention with personalized campaigns.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="blog/index-email.html">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-paper-plane fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">PPC Advertising</h5>
+                            <p>Run high-converting Google Ads, Facebook Ads, and Instagram campaigns with measurable ROI.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="blog/index-ppc.html">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-plus fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">App Development</h5>
+                            <p>We design and develop powerful, user-friendly mobile apps tailored to your brand’s goals.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="blog/index-app-dev.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Service End -->
+         
+        <!-- Portfolio Start -->
+        <section id="portfolioindex">
+        <div class="container-fluid py-5">
+            <div class="container px-lg-5">
+                <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="position-relative d-inline text-primary ps-4">Our Projects</h6>
+                    <h2 class="mt-2">Recently Launched Projects</h2>
+                </div>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="btn px-3 pe-4 active" data-filter="*">All</li>
+                            <li class="btn px-3 pe-4" data-filter=".first">Logo Design</li>
+                            <li class="btn px-3 pe-4" data-filter=".second">Web Development</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.1s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Logo Design</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">BLOARUA</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.3s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">ZOOMX</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Logo Design</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">ENVOHOLIC</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.1s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">ZOOMX SEO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.3s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Logo Design</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">VNC</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">TRICHY K.K.N A.G CHURCH</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Portfolio End -->
+
+
+        <!-- Testimonial Start -->
+        <section id="testimonialindex">
+        <div class="container-fluid bg-primary testimonial py-5 my-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>"ZoomX perfectly captured our brand’s identity in the logo. It’s clean, modern, and memorable—exactly what we needed!"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">Aarthi</h6>
+                                <small>Founder of Envoholic</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>"The website they designed is stunning and super responsive. Our customers love the new look, and so do we!"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">Rev.G.Maria Arockiadoss</h6>
+                                <small>Pastor of IRM</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>"Our engagement and followers have grown massively thanks to ZoomX. They know exactly how to make our brand stand out online!"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">Vijay</h6>
+                                <small>Founder of VNC land promoters</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>"Within just a few months, our website ranked on the first page of Google. ZoomX’s SEO work truly paid off!"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">Sureka</h6>
+                                <small>CEO of BLOAURA</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Testimonial End -->
+
+
+        <!-- Team Start -->
+        <section id="teamindex">
+        <div class="container-fluid py-5">
+            <div class="container px-lg-5">
+                <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="position-relative d-inline text-primary ps-4">Our Team</h6>
+                    <h2 class="mt-2">Meet Our Team Members</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://www.facebook.com/joshua.paulson.77964?mibextid=rS40aB7S9Ucbxw6v"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://x.com/Jo2165Joshua?t=ORauyzJFM6hbuj1HuqfBEA&s=08"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://www.instagram.com/.j0e.?igsh=dmU3NGtvOHl2aWpz"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://www.linkedin.com/in/joshua-paulson-079756282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <img class="img-fluid rounded w-100" src="img/team-1.png" alt="">
+                            </div>
+                            <div class="px-4 py-3">
+                                <h5 class="fw-bold m-0">Joshua Paulson</h5>
+                                <small>CEO</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://www.facebook.com/share/1KfqupVzas/"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://x.com/John_512?t=sPLxisOFTieyJb-i-pLaDg&s=09"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://www.instagram.com/john__512?igsh=MTU2c25oZjN3djM5cw=="><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://www.linkedin.com/in/john-b-107713353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <img class="img-fluid rounded w-100" src="img/team-2.jpg" alt="">
+                            </div>
+                            <div class="px-4 py-3">
+                                <h5 class="fw-bold m-0">John</h5>
+                                <small>Manager</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://www.facebook.com/share/15yg27WpMR/"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://x.com/Mariraj_mr?t=OUy9TcZsItPXH2F8HsfjOA&s=08"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://www.instagram.com/mariraj_mr?igsh=NXN6cTlzemMzeXh2"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href="https://www.linkedin.com/in/mariraj-m-771153345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <img class="img-fluid rounded w-100" src="img/team-3.jpg" alt="">
+                            </div>
+                            <div class="px-4 py-3">
+                                <h5 class="fw-bold m-0">Mari raj</h5>
+                                <small>Designer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Team End -->
+        
+
+        <!-- Footer Start -->
+        <section id="footerindex">
+        <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 justify-content-center text-md-start text-center">
+                    <div class="col-md-6 col-lg-4">
+                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>ZoomX Digital Marketing agency <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4/147/9A,ktc nagar,6280002; </p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+91 9585661458</p>
+                        <p class="d-flex align-items-center mb-0"><i class="fa fa-envelope me-3"></i>zoomxdigitalmarketingagency.com</p><br>
+                        <div class="d-flex flex-wrap pt-2">
+                            <a class="btn btn-outline-light btn-social me-2" href="https://x.com/ZoomxAgency?t=yQHhVWPs5RCtk2iGBgcQBQ&s=08"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href="https://www.facebook.com/share/16Gp5a28Nh/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href="https://www.instagram.com/zoomxdigitalmarketingagency?igsh=MXZ2am5oMG9zeHl1OQ=="><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social me-2" href="https://www.linkedin.com/in/zoomx-digital-marketing-agency-381384343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="mailto:zoomxdigitalmarketingagency@gmail.com"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h5 class="text-white mb-4">Popular Link</h5>
+                        <a class="btn btn-link" href="#indexabout">About Us</a>
+                        <a class="btn btn-link" href="#footerindex">Contact Us</a>
+                        <a class="btn btn-link" href="#serviceindex">Our Services</a>
+                        <a class="btn btn-link" href="P&Py.html">Privacy Policy</a>
+                        <a class="btn btn-link" href="T&Cs.html">Terms & Condition</a>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4" id="newsletter">
+                        <h5 class="text-white mb-4">Contact us</h5>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <div class="position-relative w-100 mt-3">
+                                <input type="hidden" name="access_key" value="6e320b38-e7a0-4953-b48b-86d5b4a46faf">
+                                <!-- Name input -->
+                                 <input id="name" name="name" type="text" placeholder="Your Name" class="form-control border-0 w-100 ps-4 pe-5 mb-3" style="border-radius: 20px;height: 44px;" style="height: 48px;" required />
+                                <!-- Message textarea -->
+                                 <textarea id="message" name="message" rows="3" placeholder="Message" class="form-control border-0 w-100 ps-4 pe-5 mb-3" style="border-radius: 20px;" required></textarea>
+                                <!-- Email with embedded button -->
+                                 <div class="position-relative w-100">
+                                    <input id="email" name="email" type="email" class="form-control border-0 w-100 ps-4 pe-5 mb-3" style="border-radius: 20px;height: 44px;" placeholder="Your Email" style="height: 48px;" required />
+                                    <button type="submit" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- div class="col-md-6 col-lg-3">
+                        <h5 class="text-white mb-4">Project Gallery</h5>
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-1.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-2.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-3.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-4.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-5.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/portfolio-6.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div -->
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#"></a>, All Right Reserved. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="">ZoomX</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="#homeindex">Home</a>
+                                <a href="P&Py.html">Privacy Policy</a>
+                                <a href="T&Cs.html">Terms & Condition</a>
+                                <a href="help.html">Help</a >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+<script>
+  window.addEventListener('scroll', function () {
+    const navbar = document.getElementById('mainNavbar');
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
