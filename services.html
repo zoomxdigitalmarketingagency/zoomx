@@ -1,0 +1,778 @@
+<!doctype html>
+<html class="no-js liko-dark-active" lang="zxx">
+
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>ZoomX - Services</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Place favicon.ico in the root directory -->
+   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+   <link rel="stylesheet" href="assets/css/swiper-bundle-copy.html">
+   <link rel="stylesheet" href="assets/css/slick.css">
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+   <link rel="stylesheet" href="assets/css/spacing.css">
+   <link rel="stylesheet" href="assets/css/custom-animation.css">
+   <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+   <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+
+   <!-- pre loader area start -->
+   <div id="loading" class="preloader-wrap">
+      <div class="preloader-2 text-center">
+         <span class="line line-1"></span>
+         <span class="line line-2"></span>
+         <span class="line line-3"></span>
+         <span class="line line-4"></span>
+         <span class="line line-5"></span>
+         <div class="loader-text">Loading ...</div>
+      </div>
+   </div>
+   <!-- pre loader area end -->
+
+   <!-- back to top start -->
+   <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn">
+         <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+               stroke-linejoin="round" />
+         </svg>
+      </button>
+   </div>
+   <!-- back to top end -->
+
+   <!-- tp-offcanvus-area-end -->
+   <div class="tp-offcanvas-area p-3">
+      <div class="tp-offcanvas-wrapper">
+         <div class="tp-offcanvas-top d-flex align-items-center justify-content-between">
+            <div class="tp-offcanvas-logo">
+               <a href="index.html">
+                  <img class="logo-2" src="assets/img/logo/name_png.png" alt="">
+               </a>
+            </div>
+            <div class="tp-offcanvas-close">
+               <button class="tp-offcanvas-close-btn">
+                  <svg width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M9.19141 9.80762L27.5762 28.1924" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                     <path d="M9.19141 28.1924L27.5762 9.80761" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+               </button>
+            </div>
+         </div>
+         <div class="tp-offcanvas-main">
+            <div class="tp-offcanvas-content">
+               <h3 class="tp-offcanvas-title">Ready to Grow Your Brand?</h3>
+               <p>Ready for your next big move? Let's make it happen.</p>
+            </div>
+            <div class="tp-main-menu-mobile d-xl-none"></div>
+            <div class="tp-offcanvas-contact">
+               <h3 class="tp-offcanvas-title sm">Information</h3>
+
+               <ul>
+                  <li><a href="tel:+91 9585661458">+91 95856 61458</a></li>
+                  <li><a href="mailto:info@zoomx.org">info@zoomx.org</a></li>
+                  <li class="text-white fs-6">No.144B/1C/4, Polpettai West 1st Street, Thoothukudi - 628002</li>
+               </ul>
+            </div>
+            <div class="tp-offcanvas-social">
+               <h3 class="tp-offcanvas-title sm">Follow Us</h3>
+               <ul>
+                  <li>
+                     <a href="https://www.instagram.com/zoomxdigitalmarketingagency?igsh=MXZ2am5oMG9zeHl1OQ==" target="_blank">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M11.25 1.5H4.75C2.95507 1.5 1.5 2.95507 1.5 4.75V11.25C1.5 13.0449 2.95507 14.5 4.75 14.5H11.25C13.0449 14.5 14.5 13.0449 14.5 11.25V4.75C14.5 2.95507 13.0449 1.5 11.25 1.5Z"
+                              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path
+                              d="M10.6016 7.5907C10.6818 8.13166 10.5894 8.68414 10.3375 9.16955C10.0856 9.65497 9.68711 10.0486 9.19862 10.2945C8.71014 10.5404 8.15656 10.6259 7.61663 10.5391C7.0767 10.4522 6.57791 10.1972 6.19121 9.81055C5.80451 9.42385 5.54959 8.92506 5.46271 8.38513C5.37583 7.8452 5.46141 7.29163 5.70728 6.80314C5.95315 6.31465 6.34679 5.91613 6.83221 5.66425C7.31763 5.41238 7.87011 5.31998 8.41107 5.4002C8.96287 5.48202 9.47372 5.73915 9.86817 6.1336C10.2626 6.52804 10.5197 7.0389 10.6016 7.5907Z"
+                              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M11.5742 4.42578H11.5842" stroke="currentColor" stroke-width="1.5"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.facebook.com/share/16Gp5a28Nh/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                           stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                           <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3.5l.5-4H14V7a1 1 0 0 1 1-1h3V2z" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.linkedin.com/in/zoomx-digital-marketing-agency-381384343" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                           stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
+                           <rect x="2" y="9" width="4" height="12" />
+                           <circle cx="4" cy="4" r="2" />
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="body-overlay"></div>
+   <!-- tp-offcanvus-area-end -->
+
+   <div id="header-sticky" class="tp-header-3-area mt-35 z-index-5">
+      <span class="menu-bg"></span>
+      <div class="container container-1740">
+         <div class="row align-items-center">
+            <div class="col-xl-3 col-lg-6 col-md-6 col-6">
+               <div class="tp-header-logo tp-header-3-logo ms-md-3">
+                  <a class="logo-2" href="index.html"><img src="assets/img/logo/name_png.png" alt=""></a>
+               </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-xl-block">
+               <div class="tp-header-3-menu-wrap text-center">
+                  <div class="tp-header-3-menu-box d-inline-flex align-items-center justify-content-between">
+                     <div class="tp-header-3-menu header-main-menu">
+                        <nav class="tp-main-menu-content">
+                           <ul>
+                              <li class="has-dropdown">
+                                 <a href="index.html">Home</a>
+                              </li>
+                              <li class="has-dropdown">
+                                 <a href="about-us.html">About Us</a>
+                              </li>
+                              <li class="has-dropdown">
+                                 <a href="faq.html">FAQ</a>
+                              </li>
+                              <li class="has-dropdown">
+                                 <a href="services.html">Services</a>
+                              </li>
+                              <li class="has-dropdown">
+                                 <a href="contact.html">
+                                    Contact
+                                    <!-- <span>
+                                          <svg width="8" height="5" viewBox="0 0 8 5" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path d="M1 1L4 4L7 1" stroke="white" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                       </span> -->
+                                 </a>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6 col-6">
+               <div class="tp-header-3-right d-flex align-items-center justify-content-end">
+                  <div class="tp-header-3-social d-none d-sm-block">
+                        <a href="https://www.instagram.com/zoomxdigitalmarketingagency?igsh=MXZ2am5oMG9zeHl1OQ==" target="_blank"><i
+                              class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/16Gp5a28Nh/" target="_blank"><i
+                              class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/zoomx-digital-marketing-agency-381384343" target="_blank"><i
+                              class="fa-brands fa-linkedin-in"></i></a>
+                     </div>
+                  <button class="tp-header-3-bar tp-offcanvas-open-btn d-xl-none text-white border-white"><i
+                        class="fa-solid fa-bars"></i></button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div id="smooth-wrapper">
+      <div id="smooth-content">
+
+         <main>
+
+            <!-- hero area start -->
+            <div class="sv-hero-area sv-hero-ptb">
+               <div class="container container-1530">
+                  <div class="row">
+                     <div class="col-xl-10">
+                        <div class="sv-hero-title-box">
+                           <h4 class="sv-hero-title tp-char-animation custom-heading-color">Transforming Clicks Into Sales
+                           </h4>
+                           <p class="tp_fade_bottom">Creating experiences beyond expectations.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xl-12">
+                        <div class="sv-hero-thumb p-relative">
+                           <div class="sv-hero-thumb-box">
+                              <img data-speed=".7" src="assets/img/service-banner.jpg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- hero area end -->
+
+            <!-- service area start -->
+            <div class="tp-service-5-area sv-service-style pb-70">
+               <div class="container container-1530">
+                  <div class="row">
+                     <div class="col-xl-12">
+                        <div class="tp-service-5-title-box mb-90">
+                           <span class="ab-inner-subtitle mb-20">
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 0C12 3.0432 9.53292 5.5102 6.48975 5.5102C6.48975 2.46701 8.95677 0 12 0Z"
+                                    fill="currentcolor" />
+                                 <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.0231934 0.0231209C3.06639 0.0231209 5.5334 2.49015 5.5334 5.53333C2.4902 5.53333 0.0231934 3.0663 0.0231934 0.0231209Z"
+                                    fill="currentcolor" />
+                                 <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M6.48975 6.4898C9.53294 6.4898 12 8.95682 12 12C8.95675 12 6.48975 9.53297 6.48975 6.4898Z"
+                                    fill="currentcolor" />
+                                 <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.5102 6.48981C5.5102 9.533 3.04318 12 0 12C0 8.95681 2.46703 6.48981 5.5102 6.48981Z"
+                                    fill="currentcolor" />
+                              </svg>
+                              Services
+                           </span>
+                           <h4 class="tp-service-5-title">
+                              Great design starts with strategy — that’s <br> where the real impact begins.
+                           </h4>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tp-service-5-wrap">
+                     <div class="row">
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6">
+                           <div class="tp-service-5-item tp_fade_anim space-1">
+                              <div class="tp-service-4-icon">
+                                 <img src="assets/img/service-icon-5.png" alt="" class="img-fluid" width="110">
+                              </div>
+                              <div class="tp-service-4-content">
+                                 <h4 class=" tp-text-black"><a
+                                       href=""
+                                       target="_blank">Digital Maeketing</a></h4>
+                                 <p>We turn visibility into opportunity and traffic into customers. Our marketing strategies 
+                                 are built to help businesses stand out, connect with their audience, and scale faster in a 
+                                 competitive digital world.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6">
+                           <div class="tp-service-5-item tp_fade_anim space-3">
+                              <div class="tp-service-4-icon">
+                                 <img src="assets/img/service-icon-6.png" alt="" class="img-fluid" width="110">
+                              </div>
+                              <div class="tp-service-4-content">
+                                 <h4 class=" tp-text-black"><a
+                                       href=""
+                                       target="_blank">Web Development</a></h4>
+                                 <p>People don't just visit websites—they look for reasons to trust a brand. 
+                                 We design and develop professional websites that inspire confidence and enhance user 
+                                 experience.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6">
+                           <div class="tp-service-5-item tp_fade_anim space-2">
+                              <div class="tp-service-4-icon">
+                                 <img src="assets/img/service-icon-1.png" alt="" class="img-fluid" width="110">
+                              </div>
+                              <div class="tp-service-4-content">
+                                 <h4 class=" tp-text-black"><a
+                                       href=""
+                                       target="_blank">Graphic
+                                       Desing & Branding</a></h4>
+                                 <p>We don't just create designs—we create identities that people remember. 
+                                 Through strategic branding and impactful visuals, we help businesses build trust 
+                                 and establish a strong presence.</p>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6">
+                           <div class="tp-service-5-item tp_fade_anim space-1">
+                              <div class="tp-service-4-icon">
+                                 <img src="assets/img/service-icon-3.png" alt="" class="img-fluid" width="110">
+                              </div>
+                              <div class="tp-service-4-content">
+                                 <h4 class=" tp-text-black"><a
+                                       href=""
+                                       target="_blank">Video
+                                       Production & Editing</a></h4>
+                                 <p>People may scroll past content, but great videos make them stop and watch. We transform 
+                                 ideas into engaging videos that captivate audiences and strengthen brand identity.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- service area end -->
+
+            <!-- service area start -->
+            <div class="sv-service-area project-panel-area-2">
+               <div class="container-fluid p-0">
+                  <div class="sv-service-item project-panel-2">
+                     <div class="row g-0">
+                        <div class="col-xl-6 col-lg-6">
+                           <div class="sv-service-thumb">
+                              <img src="assets/img/digital-m.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                           <div class="sv-service-content-wrap d-flex align-items-center">
+                              <div class="sv-service-content">
+                                 <div class="sv-service-title-box">
+                                    <!-- span class="sv-service-subtitle"><i>01</i>Creative Agency</span -->
+                                    <h4 class="sv-service-title">Digital Marketing</h4>
+                                 </div>
+
+                                 <div class="sv-service-space-wrap">
+                                    <div class="sv-service-text">
+                                       <p>
+                                          We don't just market your business—we build your digital presence, amplify your 
+                                          brand, and drive measurable growth. Through strategic campaigns, targeted advertising, 
+                                          and performance-focused marketing, we help businesses reach more people, generate more 
+                                          leads, and achieve more sales.
+                                       </p>
+                                    </div>
+
+                                    <div class="sv-service-list">
+                                       <ul>
+                                          <li>Search Engine Optimization (SEO)</li>
+                                          <li>Social Media Marketing (SMM)</li>
+                                          <li>Google Ads & Paid Campaigns</li>
+                                          <li>Content & Performance Marketing</li>
+                                       </ul>
+                                    </div>
+                                    <div class="sv-service-btn">
+                                       <a class="tp-btn-zikzak zikzak-inner p-relative"
+                                          href=""
+                                          target="_blank">
+                                          <span class="zikzak-content">
+                                             See <br>
+                                             Details
+                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M16.2434 8.16465C16.3866 8.31677 16.4668 8.52224 16.4668 8.73637C16.4668 8.9505 16.3866 9.15597 16.2434 9.30811L9.38818 16.53C9.24196 16.6773 9.04774 16.7599 8.84546 16.7607C8.74439 16.7602 8.64426 16.7399 8.55031 16.7005C8.41169 16.6392 8.2934 16.5359 8.21038 16.4038C8.12736 16.2717 8.0833 16.1167 8.08378 15.9583V9.53881H1.22849C1.02648 9.53881 0.832739 9.45428 0.689893 9.30378C0.547047 9.15329 0.466797 8.9492 0.466797 8.73637C0.466797 8.52356 0.547047 8.31945 0.689893 8.16897C0.832739 8.01848 1.02648 7.93395 1.22849 7.93395H8.08378V1.51445C8.0833 1.35603 8.12736 1.20101 8.21038 1.06892C8.2934 0.936828 8.41169 0.833584 8.55031 0.772196C8.691 0.714385 8.84436 0.699718 8.99264 0.729895C9.14092 0.760071 9.27805 0.833857 9.38818 0.942715L16.2434 8.16465Z"
+                                                   fill="currentColor" />
+                                             </svg>
+                                          </span>
+                                          <svg class="anim" width="130" height="130" viewBox="0 0 130 130" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M58.6957 3.50452C61.9534 -0.481752 68.0466 -0.481752 71.3043 3.50452C74.073 6.89259 78.8543 7.84365 82.7089 5.77305C87.2441 3.33685 92.8735 5.66865 94.3577 10.5981C95.6191 14.7879 99.6725 17.4963 104.026 17.0583C109.148 16.5431 113.457 20.8517 112.942 25.9739C112.504 30.3275 115.212 34.3809 119.402 35.6423C124.331 37.1265 126.663 42.7559 124.227 47.2911C122.156 51.1456 123.107 55.927 126.495 58.6957C130.482 61.9534 130.482 68.0466 126.495 71.3043C123.107 74.073 122.156 78.8543 124.227 82.7089C126.663 87.2441 124.331 92.8735 119.402 94.3577C115.212 95.6191 112.504 99.6725 112.942 104.026C113.457 109.148 109.148 113.457 104.026 112.942C99.6725 112.504 95.6191 115.212 94.3577 119.402C92.8735 124.331 87.2441 126.663 82.7089 124.227C78.8543 122.156 74.073 123.107 71.3043 126.495C68.0466 130.482 61.9534 130.482 58.6957 126.495C55.927 123.107 51.1456 122.156 47.2911 124.227C42.7559 126.663 37.1265 124.331 35.6423 119.402C34.3809 115.212 30.3275 112.504 25.9739 112.942C20.8517 113.457 16.5431 109.148 17.0583 104.026C17.4963 99.6725 14.7879 95.6191 10.5981 94.3577C5.66864 92.8735 3.33685 87.2441 5.77305 82.7089C7.84365 78.8543 6.89259 74.073 3.50452 71.3043C-0.481752 68.0466 -0.481752 61.9534 3.50452 58.6957C6.89259 55.927 7.84365 51.1456 5.77305 47.2911C3.33685 42.7559 5.66865 37.1265 10.5981 35.6423C14.7879 34.3809 17.4963 30.3275 17.0583 25.9739C16.5431 20.8517 20.8517 16.5431 25.9739 17.0583C30.3275 17.4963 34.3809 14.7879 35.6423 10.5981C37.1265 5.66865 42.7559 3.33685 47.2911 5.77305C51.1456 7.84365 55.927 6.89259 58.6957 3.50452Z"
+                                                stroke="white" stroke-opacity="0.12" />
+                                          </svg>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sv-service-item project-panel-2">
+                     <div class="row g-0">
+                        <div class="col-xl-6 col-lg-6">
+                           <div class="sv-service-thumb">
+                              <img src="assets/img/web-dev.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                           <div class="sv-service-content-wrap d-flex align-items-center">
+                              <div class="sv-service-content">
+                                 <div class="sv-service-title-box">
+                                    <!-- span class="sv-service-subtitle"><i>02</i>Creative Agency</span -->
+                                    <h4 class="sv-service-title">Web Development</h4>
+                                 </div>
+
+                                 <div class="sv-service-space-wrap">
+                                    <div class="sv-service-text">
+                                       <p>
+                                          A great website does more than attract visitors—it earns their trust. We build fast, 
+                                          modern, and conversion-focused websites that reflect your brand's professionalism, 
+                                          establish credibility, and encourage customers to take action.
+                                       </p>
+                                    </div>
+
+                                    <div class="sv-service-list">
+                                       <ul>
+                                          <li>Custom Website Development</li>
+                                          <li>Mobile-Optimized Experiences</li>
+                                          <li>Frontend & Backend Development</li>
+                                          <li>Responsive & User-Centric Design</li>
+                                       </ul>
+                                    </div>
+                                    <div class="sv-service-btn">
+                                       <a class="tp-btn-zikzak zikzak-inner p-relative"
+                                          href=""
+                                          target="_blank">
+                                          <span class="zikzak-content">
+                                             See <br>
+                                             Details
+                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M16.2434 8.16465C16.3866 8.31677 16.4668 8.52224 16.4668 8.73637C16.4668 8.9505 16.3866 9.15597 16.2434 9.30811L9.38818 16.53C9.24196 16.6773 9.04774 16.7599 8.84546 16.7607C8.74439 16.7602 8.64426 16.7399 8.55031 16.7005C8.41169 16.6392 8.2934 16.5359 8.21038 16.4038C8.12736 16.2717 8.0833 16.1167 8.08378 15.9583V9.53881H1.22849C1.02648 9.53881 0.832739 9.45428 0.689893 9.30378C0.547047 9.15329 0.466797 8.9492 0.466797 8.73637C0.466797 8.52356 0.547047 8.31945 0.689893 8.16897C0.832739 8.01848 1.02648 7.93395 1.22849 7.93395H8.08378V1.51445C8.0833 1.35603 8.12736 1.20101 8.21038 1.06892C8.2934 0.936828 8.41169 0.833584 8.55031 0.772196C8.691 0.714385 8.84436 0.699718 8.99264 0.729895C9.14092 0.760071 9.27805 0.833857 9.38818 0.942715L16.2434 8.16465Z"
+                                                   fill="currentColor" />
+                                             </svg>
+                                          </span>
+                                          <svg class="anim" width="130" height="130" viewBox="0 0 130 130" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M58.6957 3.50452C61.9534 -0.481752 68.0466 -0.481752 71.3043 3.50452C74.073 6.89259 78.8543 7.84365 82.7089 5.77305C87.2441 3.33685 92.8735 5.66865 94.3577 10.5981C95.6191 14.7879 99.6725 17.4963 104.026 17.0583C109.148 16.5431 113.457 20.8517 112.942 25.9739C112.504 30.3275 115.212 34.3809 119.402 35.6423C124.331 37.1265 126.663 42.7559 124.227 47.2911C122.156 51.1456 123.107 55.927 126.495 58.6957C130.482 61.9534 130.482 68.0466 126.495 71.3043C123.107 74.073 122.156 78.8543 124.227 82.7089C126.663 87.2441 124.331 92.8735 119.402 94.3577C115.212 95.6191 112.504 99.6725 112.942 104.026C113.457 109.148 109.148 113.457 104.026 112.942C99.6725 112.504 95.6191 115.212 94.3577 119.402C92.8735 124.331 87.2441 126.663 82.7089 124.227C78.8543 122.156 74.073 123.107 71.3043 126.495C68.0466 130.482 61.9534 130.482 58.6957 126.495C55.927 123.107 51.1456 122.156 47.2911 124.227C42.7559 126.663 37.1265 124.331 35.6423 119.402C34.3809 115.212 30.3275 112.504 25.9739 112.942C20.8517 113.457 16.5431 109.148 17.0583 104.026C17.4963 99.6725 14.7879 95.6191 10.5981 94.3577C5.66864 92.8735 3.33685 87.2441 5.77305 82.7089C7.84365 78.8543 6.89259 74.073 3.50452 71.3043C-0.481752 68.0466 -0.481752 61.9534 3.50452 58.6957C6.89259 55.927 7.84365 51.1456 5.77305 47.2911C3.33685 42.7559 5.66865 37.1265 10.5981 35.6423C14.7879 34.3809 17.4963 30.3275 17.0583 25.9739C16.5431 20.8517 20.8517 16.5431 25.9739 17.0583C30.3275 17.4963 34.3809 14.7879 35.6423 10.5981C37.1265 5.66865 42.7559 3.33685 47.2911 5.77305C51.1456 7.84365 55.927 6.89259 58.6957 3.50452Z"
+                                                stroke="white" stroke-opacity="0.12" />
+                                          </svg>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="sv-service-item project-panel-2">
+                     <div class="row g-0">
+                        <div class="col-xl-6 col-lg-6">
+                           <div class="sv-service-thumb">
+                              <img src="assets/img/service-(2).jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                           <div class="sv-service-content-wrap d-flex align-items-center">
+                              <div class="sv-service-content">
+                                 <div class="sv-service-title-box">
+                                    <!-- span class="sv-service-subtitle"><i>03</i>Creative Agency</span -->
+                                    <h4 class="sv-service-title">Graphic Desing & Branding</h4>
+                                 </div>
+                                 <div class="sv-service-space-wrap">
+                                    <div class="sv-service-text">
+                                       <p>A strong brand is more than a logo—it's how people recognize, trust, 
+                                          and remember your business. We create compelling visual identities that 
+                                          tell your story, establish credibility, and help your brand stand out 
+                                          in a competitive market.</p>
+                                    </div>
+                                    <div class="sv-service-list">
+                                       <ul>
+                                          <li>Logo & Brand Identity Design</li>
+                                          <li>Corporate Branding Materials</li>
+                                          <li>Marketing & Promotional Designs</li>
+                                       </ul>
+                                    </div>
+                                    <div class="sv-service-btn">
+                                       <a class="tp-btn-zikzak zikzak-inner p-relative"
+                                          href=""
+                                          target="_blank">
+                                          <span class="zikzak-content">
+                                             See <br>
+                                             Details
+                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M16.2434 8.16465C16.3866 8.31677 16.4668 8.52224 16.4668 8.73637C16.4668 8.9505 16.3866 9.15597 16.2434 9.30811L9.38818 16.53C9.24196 16.6773 9.04774 16.7599 8.84546 16.7607C8.74439 16.7602 8.64426 16.7399 8.55031 16.7005C8.41169 16.6392 8.2934 16.5359 8.21038 16.4038C8.12736 16.2717 8.0833 16.1167 8.08378 15.9583V9.53881H1.22849C1.02648 9.53881 0.832739 9.45428 0.689893 9.30378C0.547047 9.15329 0.466797 8.9492 0.466797 8.73637C0.466797 8.52356 0.547047 8.31945 0.689893 8.16897C0.832739 8.01848 1.02648 7.93395 1.22849 7.93395H8.08378V1.51445C8.0833 1.35603 8.12736 1.20101 8.21038 1.06892C8.2934 0.936828 8.41169 0.833584 8.55031 0.772196C8.691 0.714385 8.84436 0.699718 8.99264 0.729895C9.14092 0.760071 9.27805 0.833857 9.38818 0.942715L16.2434 8.16465Z"
+                                                   fill="currentColor" />
+                                             </svg>
+                                          </span>
+                                          <svg class="anim" width="130" height="130" viewBox="0 0 130 130" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M58.6957 3.50452C61.9534 -0.481752 68.0466 -0.481752 71.3043 3.50452C74.073 6.89259 78.8543 7.84365 82.7089 5.77305C87.2441 3.33685 92.8735 5.66865 94.3577 10.5981C95.6191 14.7879 99.6725 17.4963 104.026 17.0583C109.148 16.5431 113.457 20.8517 112.942 25.9739C112.504 30.3275 115.212 34.3809 119.402 35.6423C124.331 37.1265 126.663 42.7559 124.227 47.2911C122.156 51.1456 123.107 55.927 126.495 58.6957C130.482 61.9534 130.482 68.0466 126.495 71.3043C123.107 74.073 122.156 78.8543 124.227 82.7089C126.663 87.2441 124.331 92.8735 119.402 94.3577C115.212 95.6191 112.504 99.6725 112.942 104.026C113.457 109.148 109.148 113.457 104.026 112.942C99.6725 112.504 95.6191 115.212 94.3577 119.402C92.8735 124.331 87.2441 126.663 82.7089 124.227C78.8543 122.156 74.073 123.107 71.3043 126.495C68.0466 130.482 61.9534 130.482 58.6957 126.495C55.927 123.107 51.1456 122.156 47.2911 124.227C42.7559 126.663 37.1265 124.331 35.6423 119.402C34.3809 115.212 30.3275 112.504 25.9739 112.942C20.8517 113.457 16.5431 109.148 17.0583 104.026C17.4963 99.6725 14.7879 95.6191 10.5981 94.3577C5.66864 92.8735 3.33685 87.2441 5.77305 82.7089C7.84365 78.8543 6.89259 74.073 3.50452 71.3043C-0.481752 68.0466 -0.481752 61.9534 3.50452 58.6957C6.89259 55.927 7.84365 51.1456 5.77305 47.2911C3.33685 42.7559 5.66865 37.1265 10.5981 35.6423C14.7879 34.3809 17.4963 30.3275 17.0583 25.9739C16.5431 20.8517 20.8517 16.5431 25.9739 17.0583C30.3275 17.4963 34.3809 14.7879 35.6423 10.5981C37.1265 5.66865 42.7559 3.33685 47.2911 5.77305C51.1456 7.84365 55.927 6.89259 58.6957 3.50452Z"
+                                                stroke="white" stroke-opacity="0.12" />
+                                          </svg>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sv-service-item project-panel-2">
+                     <div class="row g-0">
+                        <div class="col-xl-6 col-lg-6">
+                           <div class="sv-service-thumb">
+                              <img src="assets/img/service-(3).jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                           <div class="sv-service-content-wrap d-flex align-items-center">
+                              <div class="sv-service-content">
+                                 <div class="sv-service-title-box">
+                                    <!-- span class="sv-service-subtitle"><i>04</i>Creative Agency</span -->
+                                    <h4 class="sv-service-title">Video Production & Editing</h4>
+                                 </div>
+                                 <div class="sv-service-space-wrap">
+                                    <div class="sv-service-text">
+                                       <p>In a world full of content, only great stories stand out. We create 
+                                          compelling visual stories that capture attention, build trust, 
+                                          and inspire action.</p>
+                                    </div>
+                                    <div class="sv-service-list">
+                                       <ul>
+                                          <li>Promotional Videos</li>
+                                          <li>Social Media Reels & Shorts</li>
+                                          <li>Event Videography</li>
+                                          <li>Corporate Films</li>
+                                          <li>Motion Graphics & Animation</li>
+                                          <li>Professional Video Editing</li>
+                                       </ul>
+                                    </div>
+                                    <div class="sv-service-btn">
+                                       <a class="tp-btn-zikzak zikzak-inner p-relative"
+                                          href=""
+                                          target="_blank">
+                                          <span class="zikzak-content">
+                                             See <br>
+                                             Details
+                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M16.2434 8.16465C16.3866 8.31677 16.4668 8.52224 16.4668 8.73637C16.4668 8.9505 16.3866 9.15597 16.2434 9.30811L9.38818 16.53C9.24196 16.6773 9.04774 16.7599 8.84546 16.7607C8.74439 16.7602 8.64426 16.7399 8.55031 16.7005C8.41169 16.6392 8.2934 16.5359 8.21038 16.4038C8.12736 16.2717 8.0833 16.1167 8.08378 15.9583V9.53881H1.22849C1.02648 9.53881 0.832739 9.45428 0.689893 9.30378C0.547047 9.15329 0.466797 8.9492 0.466797 8.73637C0.466797 8.52356 0.547047 8.31945 0.689893 8.16897C0.832739 8.01848 1.02648 7.93395 1.22849 7.93395H8.08378V1.51445C8.0833 1.35603 8.12736 1.20101 8.21038 1.06892C8.2934 0.936828 8.41169 0.833584 8.55031 0.772196C8.691 0.714385 8.84436 0.699718 8.99264 0.729895C9.14092 0.760071 9.27805 0.833857 9.38818 0.942715L16.2434 8.16465Z"
+                                                   fill="currentColor" />
+                                             </svg>
+                                          </span>
+                                          <svg class="anim" width="130" height="130" viewBox="0 0 130 130" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M58.6957 3.50452C61.9534 -0.481752 68.0466 -0.481752 71.3043 3.50452C74.073 6.89259 78.8543 7.84365 82.7089 5.77305C87.2441 3.33685 92.8735 5.66865 94.3577 10.5981C95.6191 14.7879 99.6725 17.4963 104.026 17.0583C109.148 16.5431 113.457 20.8517 112.942 25.9739C112.504 30.3275 115.212 34.3809 119.402 35.6423C124.331 37.1265 126.663 42.7559 124.227 47.2911C122.156 51.1456 123.107 55.927 126.495 58.6957C130.482 61.9534 130.482 68.0466 126.495 71.3043C123.107 74.073 122.156 78.8543 124.227 82.7089C126.663 87.2441 124.331 92.8735 119.402 94.3577C115.212 95.6191 112.504 99.6725 112.942 104.026C113.457 109.148 109.148 113.457 104.026 112.942C99.6725 112.504 95.6191 115.212 94.3577 119.402C92.8735 124.331 87.2441 126.663 82.7089 124.227C78.8543 122.156 74.073 123.107 71.3043 126.495C68.0466 130.482 61.9534 130.482 58.6957 126.495C55.927 123.107 51.1456 122.156 47.2911 124.227C42.7559 126.663 37.1265 124.331 35.6423 119.402C34.3809 115.212 30.3275 112.504 25.9739 112.942C20.8517 113.457 16.5431 109.148 17.0583 104.026C17.4963 99.6725 14.7879 95.6191 10.5981 94.3577C5.66864 92.8735 3.33685 87.2441 5.77305 82.7089C7.84365 78.8543 6.89259 74.073 3.50452 71.3043C-0.481752 68.0466 -0.481752 61.9534 3.50452 58.6957C6.89259 55.927 7.84365 51.1456 5.77305 47.2911C3.33685 42.7559 5.66865 37.1265 10.5981 35.6423C14.7879 34.3809 17.4963 30.3275 17.0583 25.9739C16.5431 20.8517 20.8517 16.5431 25.9739 17.0583C30.3275 17.4963 34.3809 14.7879 35.6423 10.5981C37.1265 5.66865 42.7559 3.33685 47.2911 5.77305C51.1456 7.84365 55.927 6.89259 58.6957 3.50452Z"
+                                                stroke="white" stroke-opacity="0.12" />
+                                          </svg>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sv-service-item project-panel-2">
+                     <div class="row g-0">
+                        <div class="col-xl-6 col-lg-6">
+                           <div class="sv-service-thumb">
+                              <img src="assets/img/service-(1).jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                           <div class="sv-service-content-wrap d-flex align-items-center">
+                              <div class="sv-service-content">
+                                 <div class="sv-service-title-box">
+                                    <!-- span class="sv-service-subtitle"><i>05</i>Creative Agency</span -->
+                                    <h4 class="sv-service-title">Motion Graphics</h4>
+                                 </div>
+                                 <div class="sv-service-space-wrap">
+                                    <div class="sv-service-text">
+                                       <p>People process visuals faster than words, and motion makes them impossible 
+                                          to ignore. We create engaging motion graphics that capture attention, simplify 
+                                          complex ideas, and bring your brand to life.</p>
+                                    </div>
+                                    <div class="sv-service-list">
+                                       <ul>
+                                          <li>Logo Animation</li>
+                                          <li>Explainer Videos</li>
+                                          <li>Animated Advertisements</li>
+                                          <li>Kinetic Typography</li>
+                                       </ul>
+                                    </div>
+                                    <div class="sv-service-btn">
+                                       <a class="tp-btn-zikzak zikzak-inner p-relative"
+                                          href=""
+                                          target="_blank">
+                                          <span class="zikzak-content">
+                                             See <br>
+                                             Details
+                                             <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                   d="M16.2434 8.16465C16.3866 8.31677 16.4668 8.52224 16.4668 8.73637C16.4668 8.9505 16.3866 9.15597 16.2434 9.30811L9.38818 16.53C9.24196 16.6773 9.04774 16.7599 8.84546 16.7607C8.74439 16.7602 8.64426 16.7399 8.55031 16.7005C8.41169 16.6392 8.2934 16.5359 8.21038 16.4038C8.12736 16.2717 8.0833 16.1167 8.08378 15.9583V9.53881H1.22849C1.02648 9.53881 0.832739 9.45428 0.689893 9.30378C0.547047 9.15329 0.466797 8.9492 0.466797 8.73637C0.466797 8.52356 0.547047 8.31945 0.689893 8.16897C0.832739 8.01848 1.02648 7.93395 1.22849 7.93395H8.08378V1.51445C8.0833 1.35603 8.12736 1.20101 8.21038 1.06892C8.2934 0.936828 8.41169 0.833584 8.55031 0.772196C8.691 0.714385 8.84436 0.699718 8.99264 0.729895C9.14092 0.760071 9.27805 0.833857 9.38818 0.942715L16.2434 8.16465Z"
+                                                   fill="currentColor" />
+                                             </svg>
+                                          </span>
+                                          <svg class="anim" width="130" height="130" viewBox="0 0 130 130" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                             <path
+                                                d="M58.6957 3.50452C61.9534 -0.481752 68.0466 -0.481752 71.3043 3.50452C74.073 6.89259 78.8543 7.84365 82.7089 5.77305C87.2441 3.33685 92.8735 5.66865 94.3577 10.5981C95.6191 14.7879 99.6725 17.4963 104.026 17.0583C109.148 16.5431 113.457 20.8517 112.942 25.9739C112.504 30.3275 115.212 34.3809 119.402 35.6423C124.331 37.1265 126.663 42.7559 124.227 47.2911C122.156 51.1456 123.107 55.927 126.495 58.6957C130.482 61.9534 130.482 68.0466 126.495 71.3043C123.107 74.073 122.156 78.8543 124.227 82.7089C126.663 87.2441 124.331 92.8735 119.402 94.3577C115.212 95.6191 112.504 99.6725 112.942 104.026C113.457 109.148 109.148 113.457 104.026 112.942C99.6725 112.504 95.6191 115.212 94.3577 119.402C92.8735 124.331 87.2441 126.663 82.7089 124.227C78.8543 122.156 74.073 123.107 71.3043 126.495C68.0466 130.482 61.9534 130.482 58.6957 126.495C55.927 123.107 51.1456 122.156 47.2911 124.227C42.7559 126.663 37.1265 124.331 35.6423 119.402C34.3809 115.212 30.3275 112.504 25.9739 112.942C20.8517 113.457 16.5431 109.148 17.0583 104.026C17.4963 99.6725 14.7879 95.6191 10.5981 94.3577C5.66864 92.8735 3.33685 87.2441 5.77305 82.7089C7.84365 78.8543 6.89259 74.073 3.50452 71.3043C-0.481752 68.0466 -0.481752 61.9534 3.50452 58.6957C6.89259 55.927 7.84365 51.1456 5.77305 47.2911C3.33685 42.7559 5.66865 37.1265 10.5981 35.6423C14.7879 34.3809 17.4963 30.3275 17.0583 25.9739C16.5431 20.8517 20.8517 16.5431 25.9739 17.0583C30.3275 17.4963 34.3809 14.7879 35.6423 10.5981C37.1265 5.66865 42.7559 3.33685 47.2911 5.77305C51.1456 7.84365 55.927 6.89259 58.6957 3.50452Z"
+                                                stroke="white" stroke-opacity="0.12" />
+                                          </svg>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- service area end -->
+
+            <!-- contact area start -->
+            <div class="sv-big-text-area pb-80 pt-180">
+               <div class="container container-1530">
+                  <div class="sv-small-text-box d-flex justify-content-between">
+                     <span>DIGITAL MARKETING AGENCY</span>
+                     <span>CREATIVE STUDIO</span>
+                  </div>
+                  <div class="sv-big-text-box">
+                     <h4 class="sv-big-text tp-char-animation custom-heading-color"><a href="contact.html">Get in
+                           Touch</a></h4>
+                  </div>
+               </div>
+            </div>
+            <!-- contact area end -->
+
+
+         </main>
+
+         <footer>
+            <!-- footer area start -->
+            <div class="tp-footer-3-area black-bg-2 pt-120">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-6 col-md-6 mb-60">
+                        <div class="tp-footer-3-widget-wrapper footer-col-3-1">
+                           <div class="tp-footer-3-widget mb-40">
+                              <h4 class="tp-footer-3-title">Website map</h4>
+                              <div class="tp-footer-3-menu">
+                                 <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about-us.html">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="tp-footer-3-widget mb-40">
+                              <h4 class="tp-footer-3-title">Legal</h4>
+                              <div class="tp-footer-3-menu d-block ">
+                                 <ul>
+                                    <li class="w-100"><a href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li class="w-100"><a href="terms-and-conditions.html">Terms &
+                                          Conditions</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-6 mb-60">
+                        <div class="tp-footer-3-widget text-md-center footer-col-3-2">
+                           <div class="tp-footer-3-logo-box">
+                              <p class="mb-100">
+                                 Transforming Clicks Into Sales
+                              </p>
+                              <a class="tp-footer-3-logo p-relative" href="index.html">
+                                 <img src="assets/img/logo/name_png.png" alt="">
+                              </a>
+                              <p class="tp-footer-3-copyright">
+                                 2026 ZoomX<br> © All rights reserved
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-6 mb-60">
+                        <div class="tp-footer-3-widget-wrapper footer-col-3-3">
+                           <div class="tp-footer-3-widget mb-30">
+                              <h4 class="tp-footer-3-title">Contact</h4>
+                              <div class="tp-footer-2-contact-item">
+                                 <span><a href=""
+                                       target="_blank">No.144B/1C/4, Polpettai West 1st Street, Thoothukudi - 628002</a></span>
+                              </div>
+                              <div class="tp-footer-2-contact-item">
+                                 <span class="mb-3"><a href="tel:+91 9585661458">+91 95856 61458</a></span>
+                                 <span><a href="mailto:info@zoomx.org">info@zoomx.org</a></span>
+                              </div>
+                           </div>
+                           <div class="tp-footer-3-widget">
+                              <h4 class="tp-footer-3-title">Follow</h4>
+                              <div class="tp-footer-3-social">
+                                 <a href="https://www.instagram.com/zoomxdigitalmarketingagency?igsh=MXZ2am5oMG9zeHl1OQ=="
+                                    target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                 <a href="https://www.facebook.com/share/16Gp5a28Nh/" target="_blank"><i
+                                       class="fa-brands fa-facebook"></i></a>
+                                 <a href="https://www.linkedin.com/in/zoomx-digital-marketing-agency-381384343" target="_blank"><i
+                                       class="fa-brands fa-linkedin-in"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- footer area end -->
+         </footer>
+
+      </div>
+   </div>
+
+   <div class="cursor-follow">
+      <div class="cursor-inner"></div>
+      <div class="cursor-outer"></div>
+   </div>
+
+   <!-- JS here -->
+   <script src="assets/js/vendor/jquery.js"></script>
+   <script src="assets/js/bootstrap-bundle.js"></script>
+
+   <script src="assets/js/gsap.js"></script>
+   <script src="assets/js/gsap-scroll-to-plugin.js"></script>
+   <script src="assets/js/gsap-scroll-smoother.js"></script>
+   <script src="assets/js/gsap-scroll-trigger.js"></script>
+   <script src="assets/js/gsap-split-text.js"></script>
+   <script src="assets/js/chroma.min.js"></script>
+
+   <script src='assets/js/three.js'></script>
+   <script src='assets/js/tween-max.js'></script>
+   <script src='assets/js/scroll-magic.js'></script>
+
+   <script src="assets/js/range-slider.js"></script>
+   <script src="assets/js/swiper-bundle.js"></script>
+   <script src="assets/js/slick.js"></script>
+   <script src="assets/js/magnific-popup.js"></script>
+   <script src="assets/js/nice-select.js"></script>
+   <script src="assets/js/purecounter.js"></script>
+   <script src="assets/js/beforeafter.js"></script>
+   <script src="assets/js/isotope-pkgd.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/ajax-form.js"></script>
+   <script src="assets/js/webgl.js"></script>
+   <script src="assets/js/main.js"></script>
+   <script src="assets/js/cursor.js"></script>
+   <script src="assets/js/tp-cursor.js"></script>
+
+   <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentFile = window.location.pathname.split("/").pop() || "index.html";
+
+    document.querySelectorAll(".tp-main-menu-content ul li a").forEach(link => {
+      const linkFile = link.getAttribute("href").split("/").pop();
+      if (linkFile === currentFile) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+
+</body>
+
+
+</html>
